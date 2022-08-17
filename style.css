@@ -7,9 +7,13 @@
     font-family: Inter, system-ui;
 }
 
+.blue{color: #6415ff;}
 /* Nav bar */
-.container{
-    padding: 32px;
+.row{
+    padding: 2rem;
+    width:100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 nav{
     height: 80px;
@@ -60,3 +64,83 @@ img{
     border-radius: 40px;
     color: white;
 }
+
+
+/* React */
+h1{
+    font-size: 32px;
+}
+.react-wrapper{
+    display: flex;
+    padding: 96px 0;
+}
+.react__1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: left;
+}
+.react__1--img{
+    width: 80%;
+    height: auto;
+}
+.react__header{
+    
+}
+.react_para{
+margin: 32px 0;
+text-align: left;
+line-height: 1.5em;
+}
+.react__getstarted{
+    position: relative;
+    border:1px solid gray;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.react__getstarted:hover{
+    border: 1px solid #6415ff;
+    transition:300ms;
+}
+.youremail{
+    padding:20px 32px ;
+    color: gray;
+}
+
+.react__btn{
+    position: absolute;
+    border: none;
+    font-weight: 700;
+    padding: 16px 32px;
+    margin: 8px 8px 8px 0 ;
+    border-radius: 32px;
+    text-align: right;
+    background-color: #6415ff;
+    color: white;
+    font-size: 16px;
+    right: 0px;
+    margin-right:3px ;
+}
+
+.react__btn:hover{
+    cursor: pointer;
+    background-color: rgba(60,13,153,1);
+    transition: 300ms ease;
+}
+.react_para-1{
+    margin-top: 80px;
+    font-size: 12px;
+    font-weight: 700;
+    opacity: 0.1;
+}
+
+.react__1--img{
+    margin-top: 16px;
+    opacity: 0.5;
+    width: 100%;
+    padding-right: 32px;
+}
+
