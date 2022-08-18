@@ -9,17 +9,20 @@
 
 .blue{color: #6415ff;}
 /* Nav bar */
+.wrapper{
+    padding: 32px ;
+}
 .row{
-    padding: 96px 0;
+    padding: 96px 0px;
     width:100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 .container{
     padding: 90px 0;
 }
 nav{
-    height: 80px;
+    
     display: flex;
 }
 img{
@@ -30,8 +33,7 @@ img{
 .nav__wrapper{
     width: 100%;
     margin: 0 auto;
-    
-    padding: 0 24;
+    max-width: 1280px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -76,13 +78,14 @@ img{
 }
 .react-wrapper{
     display: flex;
-    padding: 96px 0;
+    
 }
 .react__1{
     display: flex;
     flex-direction: column;
     width: 40%;
     text-align: left;
+   
 }
 .react__1--img{
     width: 80%;
@@ -234,21 +237,18 @@ color: #7c8ba1;
 
 .qualitywork__wrapper{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
+    justify-content: space-between;
 }
 .qualitywork__discription--wrapper{
     
-    width: 40%;
-    padding-left: 32px;
+    width: 50%;
+    padding: 32px 0;
     text-align: left;
     margin-right: 32px;
 }
 .qulaitywork__img--wrapper{
-    width: 60%;
+    width: 50%;
     
 }
 .qulaitywork__img{
