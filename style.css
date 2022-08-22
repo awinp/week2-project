@@ -409,11 +409,15 @@ margin-top: 32px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  
+  
+  
   
 }
 .pricing__discription--wrapper{
-  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+  
  
 }
 
@@ -422,8 +426,10 @@ margin-top: 32px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  width: 100%;
+  margin: 0 auto;
   
-  margin-top: 62px;
+  
   
 
 
@@ -436,6 +442,11 @@ margin-top: 32px;
   padding: 32px;
   margin-right: 32px;
   margin-top: 62px;
+  
+ 
+
+  
+  
   
 }
 .pricing__box--header{
@@ -493,10 +504,7 @@ margin-top: 32px;
   border-bottom-right-radius:10px ;
 }
 
-.pricing__discription{
-  max-width: 32rem;
-  margin-top: 16px;
-}
+
 .pricing__subtitle{
   margin-top: 16px;
 }
@@ -520,6 +528,7 @@ font-size: 20px;
 
 .pricing_btn-wrapper{
   text-align: center;
+  padding: 32px;
 }
 
 .pricing__box--btn-1{
@@ -529,6 +538,7 @@ font-size: 20px;
   color: white;
   font-size: 16px;
   font-weight: 700 ;
+  border: none;
 
 }
 .pricing__box--btn-2{
@@ -538,6 +548,7 @@ font-size: 20px;
   color:#6415ff;
   font-size: 16px;
   font-weight: 700 ;
+  border: none;
 
 }
 .pricing__box--btn-3{
@@ -547,5 +558,29 @@ font-size: 20px;
   color: white;
   font-size: 16px;
   font-weight: 700 ;
+  border: none;
+
+
+}
+
+.pricing__title{
+ font-size: 18px; 
+ font-weight: 700;
+ letter-spacing: 0.1em;
+ text-align: center;
+}
+.pricing__subtitle{
+  font-size: 48px;
+  margin-top: 16px;
+  text-align: center;
+  
+}
+.pricing__discription{
+  font-size: 18px;
+  line-height: 1.625;
+   margin: 0 auto;
+  max-width: 32rem;
+  text-align: center;
+  
 
 }
