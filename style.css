@@ -138,6 +138,7 @@ font-size: 40px;
   flex-direction: column;
   width: 40%;
   text-align: left;
+  
 }
 .react__1--img {
   width: 80%;
@@ -154,40 +155,39 @@ font-size: 40px;
   position: relative;
   border-radius: 9999px;
   max-width: 28rem;
-  margin: 0 auto;
   text-align: center;
+  
+
+  
   
  
 
 }
 
 .input__react{
+  position: relative;
   width: 100%;
   border: 2px solid grey;
   border-radius: 9999px;
-  padding: 16px 32px;
+  padding: 20px;
   font-weight: 500;
 
 }
 .input__btn{
   position: absolute;
-  width: 10rem;
-  top:0;
-  right: 0;
-  bottom: 0;
-  margin-right: 0.5rem;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  border: none;
+  border:none;
   background: none;
-  border: 1px solid #6415ff;
-  padding: 8px 8px;
-  border-radius: 9999px;
+  text-align: center;
   background-color: #6415ff;
   color: white;
-  margin-right: 0.5rem;
-  align-items: center;
- 
+  padding: 8px 32px;
+  border-radius: 9999px;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 6px 6px 6px 0  ;
+  
+  
 }
 
 .react_para-1 {
@@ -196,7 +196,6 @@ font-size: 40px;
   font-weight: 700;
   opacity: 0.1;
   
-  text-align: center;
 }
 
 .react__1--img {
